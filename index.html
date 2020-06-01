@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <title>AudioMack Online Music Player</title>
+
+    <!-- this is is main stylesheet css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- favicon ico-->
+    <link rel="shortcut icon" href="/assests/Home Image/music-logo.png" type="image/x-icon">
+
+    <!-- This link is for the Main Page RESPONSIVE sTYLE sHEET -->
+    <link rel="stylesheet" href="Main Page Responsive.css">
+    <!-- this  link is for the fontAwesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+
+    <!-- Animate.css link cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"/>
+</head>
+<!-- body -->
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navigation-menu">
+        <div class="title">
+            <div class="website-logo rotate-center">
+                <img src="assests/Home Image/music-logo.png" alt="" />
+            </div>
+            <div class="website-name">
+                <h1 class="heartbeat">AudioMack</h1>
+                <h4 class="heartbeat">
+                    Feel The Music
+                </h4>
+            </div>
+        </div>
+        <div class="favs animated wobble fast infinite">
+            <h4>
+                Favourites
+            </h4>
+        </div>
+
+        <div class="search-bar">
+            <!-- search icon -->
+            <div>
+                <i class="fas fa-search search-icon"> </i>
+            </div>
+            <input type="text" name="search" placeholder="search" />
+            <!-- mic icon -->
+            <div>
+                <i class="fas fa-microphone mic-icon"></i>
+            </div>
+        </div>
+        <div class="notification-bell animated swing fast infinite">
+            <img src="assests/Home Image/bell_icon.png" alt="" />
+        </div>
+        <div class="profile-picture">
+            <img src="assests/Home Image/profile-picture.svg" alt="" />
+        </div>
+    </nav>
+
+    <!-- There are two section so we divide the page into two half using aside section 1 and aside section 2 -->
+    <main>
+        <aside class="aside section-1">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <img src="assests/Carousel/carousel-1.jpg" alt="" />
+                    <img src="assests/Carousel/carousel-2.jpg" alt="" />
+                    <img src="assests/Carousel/carousel-3.jpg" alt="" />
+                </div>
+            </div>
+
+            <!-- Latest Release Section start -->
+
+            <div class="latest-release">
+                <h1 style="margin-bottom: 12px; margin-left:15px">
+                    Latest Release
+                </h1>
+                <div class="latest-release-card">
+                    <!-- first-card -->
+                    <div class="card">
+                        <div>
+                            <img src="assests/Latest Release/latest-release-1.jpg" alt="Latest-song-1" />
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-info">
+                            <h3>
+                                Closer
+                            </h3>
+                            <p>
+                                MAY 17, 2020
+                            </p>
+                        </div>
+                        <div class="drop-menu">
+                            <label for="latest-song-checkbox1">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </label>
+                            <input type="checkbox" id="latest-song-checkbox1" />
+                            <div class="latest-song-dropmenu">
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-play"></i><a href="Single Playlist Screen.html">
+                                            Play Now
+                                        </a>
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-list"></i>
+                                        Add to Queue
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-music"></i>
+                                        Add to playlist
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="far fa-heart"></i>
+                                        Favourite
+                                    </p>
+                                </div>
+                            </div>
+                            <p>
+                                5.55
+                            </p>
+                        </div>
+                    </div>
+                    <!-- second card -->
+                    <div class="card">
+                        <div>
+                            <img src="assests/Latest Release/latest-release-2.jpg" alt="Latest-song-2" />
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="song-info">
+                            <h3>
+                                Lean On
+                            </h3>
+                            <p>
+                                MAY 19, 2020
+                            </p>
+                        </div>
+                        <div class="drop-menu">
+                            <label for="latest-song-checkbox2">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </label>
+                            <input type="checkbox" id="latest-song-checkbox2" />
+                            <div class="latest-song-dropmenu">
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-play"></i><a href="Single Playlist Screen.html">
+                                            Play Now
+                                        </a>
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-list"></i>
+                                        Add to Queue
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-music"></i>
+                                        Add to playlist
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="far fa-heart"></i>
+                                        Favourite
+                                    </p>
+                                </div>
+                            </div>
+                            <p>
+                                4.44
+                            </p>
+                        </div>
+                    </div>
+                    <!-- third card -->
+                    <div class="card">
+                        <div>
+                            <img src="assests/Latest Release/latest-release-3.jpg" alt="Latest-song-3" />
+                            <div class="play-button">
+                                <i class="fas fa-play play"></i>
+                            </div>
+                        </div>
+                        <div class="song-info">
+                            <h3>
+                                Rocka bye
+                            </h3>
+                            <p>
+                                MAY 19, 2020
+                            </p>
+                        </div>
+                        <div class="drop-menu">
+                            <label for="latest-song-checkbox3">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </label>
+                            <input type="checkbox" id="latest-song-checkbox3" />
+                            <div class="latest-song-dropmenu">
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-play"></i><a href="Single Playlist Screen.html">
+                                            Play Now
+                                        </a>
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-list"></i>
+                                        Add to Queue
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-music"></i>
+                                        Add to playlist
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <a href="" class="icon">
+                                            <i class="far fa-heart"></i>
+                                        </a>
+
+                                        Favourite
+                                    </p>
+                                </div>
+                            </div>
+                            <p>
+                                5.45
+                            </p>
+                        </div>
+                    </div>
+                    <!-- fourth card -->
+                    <div class="card">
+                        <div>
+                            <img src="assests/Latest Release/latest-release-4.jpg" alt="Latest-song-4" />
+                            <div class="play-button">
+                                <i class="fas fa-play play"></i>
+                            </div>
+                        </div>
+                        <div class="song-info">
+                            <h3>
+                                Kinna Sona
+                            </h3>
+                            <p>
+                                MAY 20, 2020
+                            </p>
+                        </div>
+                        <div class="drop-menu">
+                            <label for="latest-song-checkbox4">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </label>
+                            <input type="checkbox" id="latest-song-checkbox4" />
+                            <div class="latest-song-dropmenu">
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-play"></i><a href="Single Playlist Screen.html">
+                                            Play Now
+                                        </a>
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-list"></i>
+                                        Add to Queue
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-music"></i>
+                                        Add to playlist
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="far fa-heart"></i>
+                                        Favourite
+                                    </p>
+                                </div>
+                            </div>
+                            <p>
+                                5.55
+                            </p>
+                        </div>
+                    </div>
+                    <!-- five card -->
+                    <div class="card">
+                        <div>
+                            <img src="assests/Latest Release/latest-release-5.jpg" alt="Latest-song-1" />
+                            <div class="play-button">
+                                <i class="fas fa-play play"></i>
+                            </div>
+                        </div>
+                        <div class="song-info">
+                            <h3>
+                                Havana
+                            </h3>
+                            <p>
+                                MAY 21, 2020
+                            </p>
+                        </div>
+                        <div class="drop-menu">
+                            <label for="latest-song-checkbox5">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </label>
+                            <input type="checkbox" id="latest-song-checkbox5" />
+                            <div class="latest-song-dropmenu">
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-play"></i><a href="Single Playlist Screen.html">
+                                            Play Now
+                                        </a>
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-list"></i>
+                                        Add to Queue
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-music"></i>
+                                        Add to playlist
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="far fa-heart"></i>
+                                        Favourite
+                                    </p>
+                                </div>
+                            </div>
+                            <p>
+                                5.55
+                            </p>
+                        </div>
+                    </div>
+                    <!-- six-card -->
+                    <div class="card">
+                        <div>
+                            <img src="assests/Latest Release/latest-release-6.jpg" alt="Latest-song-1" />
+                            <div class="play-button">
+                                <i class="fas fa-play play"></i>
+                            </div>
+                        </div>
+                        <div class="song-info">
+                            <h3>
+                                Solo
+                            </h3>
+                            <p>
+                                MAY 22, 2020
+                            </p>
+                        </div>
+                        <div class="drop-menu">
+                            <label for="latest-song-checkbox6">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </label>
+                            <input type="checkbox" id="latest-song-checkbox6" />
+                            <div class="latest-song-dropmenu">
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-play"></i><a href="Single Playlist Screen.html">
+                                            Play Now
+                                        </a>
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-list"></i>
+                                        Add to Queue
+                                    </p>
+                                </div>
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="fas fa-music"></i>
+                                        Add to playlist
+                                    </p>
+                                </div>
+
+                                <hr />
+                                <div class="dropmenu-items">
+                                    <p>
+                                        <i class="far fa-heart"></i>
+                                        Favourite
+                                    </p>
+                                </div>
+                            </div>
+                            <p>
+                                5.55
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--------- Popular Artist Section start-------- -->
+            <div class="popular-artist">
+                
+                <h1 style= "margin-bottom:12px; margin-left:15px">
+                    Popular Artist
+                </h1>
+                <div class="popular-artist-info">
+                    <!-- Fist singer artist -->
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/taylor-swift.jpg" alt="">
+                        <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        <p>
+                            Taylor Swift
+                        </p>
+                    </div>
+                    <!-- second singer artist -->
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/justin-bieber.jpg" alt="">
+                        <div></div>
+                        <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        
+                        <p>
+                            Justin Bieber
+                        </p>
+                    </div>
+                    <!-- third singer artist -->
+
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/luis-fonsi.jpg" alt="">
+                       <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        <p>
+                            Luis Fonsi
+                        </p>
+                    </div>
+
+                    <!-- Four singer artist -->
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/katty-perry.jpg" alt="">
+                        <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        
+                        <p>
+                            Katty Perry
+                        </p>
+                    </div>
+                    <!-- Five singer artist -->
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/shwan-mendes.jpg" alt="">
+                       <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        <p>
+                            Shawan Mendes
+                        </p>
+                    </div>
+
+                    <!-- Six singer artist -->
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/neha-kakkar.jpg"">
+                       <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        
+                        <p>
+                            Neha Kakkar
+                        </p>
+                    </div>
+
+                    <!-- seven singer artist -->
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/eminem.jpg" alt="">
+                     <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        <p>
+                            Eminem
+                        </p>
+                    </div>
+
+                    <!-- Eight singer artist -->
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/salena-gomez.jpg"">
+                       <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        
+                        <p>
+                          Salena Gomez
+                        </p>
+                    </div>
+
+                    <!-- NIne singer artist -->
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/bruno-mars.jpg" alt="">
+                        <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        <p>
+                            Bruno Mars
+                        </p>
+                    </div>
+                    </a>
+                    <!-- ten singer artist -->
+                    
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/marshmellow.jpg"">
+                       <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        
+                        <p>
+                            Marshmello
+                        </p>
+                    </div>
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/Ed-sheeran..jpg">
+                       <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        
+                        <p>
+                            Ed Sheeran
+                        </p>
+                    </div>
+                    </a>
+                    <a href="Single Playlist Screen.html">
+                    <div>
+                        <img src="assests/Popular Artist/zyan.jpg">
+                     <div>
+                                <i class="fas fa-play"></i>
+                            </div>
+                        
+                        <p>
+                           Zayn
+                        </p>
+                    </div>
+                    </a>
+                    
+                </div>
+            </div>
+
+            <!--------- Popular artist Section end ------------>
+
+            <!-------- Music Generes section Start ---------------->
+            <div class="radio-station">
+                <div class="music-radio">
+                    <div id="div1">
+                        <div id="div2">
+                            <div id="div3">
+                                <img src="assests/Radio Station/station-logo.png" alt="">
+                                <p>Stations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="station-main">
+                    <div class="station-info">
+                        <img src="assests/Radio Station/love.jpg" alt="Love">
+                        <p>Love</p>
+                    </div>
+                    
+                    
+                    <div class="station-info">
+                        <img src="assests/Radio Station/retro.jpg" alt="Retro">
+                        <p>Retro</p>
+                    </div>
+                    <div class="station-info">
+                        <img src="assests/Radio Station/Rock.jpg" alt="Rock">
+                        <p>Rock</p>
+                    </div>
+                    <div class="station-info">
+                        <img src="assests/Radio Station/workout.jpeg" alt="Workout">
+                        <p>Workout</p>
+                    </div>
+                    <div class="station-info">
+                        <img src="assests/Radio Station/jazz.jpg" alt="Jazz">
+                        <p>Jazz</p>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
+            <!-- Music genres section end -->
+
+            <!-- Music theme section start -->
+
+            <div class="music-theme">
+                <div class="outer">
+                    <div class="inner">
+                    <img src="assests/Music Theme/theme-1.jpg" alt="">
+                     <p>Party</p>
+                    
+                </div>
+               
+                </div>
+                <div class="outer">
+                    <div class="inner">
+                    <img src="assests/Music Theme/theme-2.jpg" alt="">
+                     <p>Electronics</p>
+                    
+                </div>
+               
+            </div>
+                <div class="outer">
+                    <div class="inner">
+                    <img src="assests/Music Theme/theme-3.jpg" alt="">
+                <p class="unique">Road Trip</p>
+
+                    
+                </div>
+                </div>
+            </div>
+
+            <!-- Music theme section end -->
+
+            <!-------- Latest english section start-------->
+
+            <div class="Latest-song">
+                <h1 style="margin-left: -1px;">Latest English</h1>
+
+                <div class="Latest-song-content">
+                    <div>
+                        <img src="assests/media/Latest English/ignite.jpg" alt="">
+                        <p>Ignite</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest English/back-to-you.jpg" alt="">
+                        <p>Back To You</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest English/all-we know.jpg" alt="">
+                        <p>All We Know</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest English/let-me-love-you.jpg" alt="">
+                        <p>Let Me Love You</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest English/Safari.jpg" alt="">
+                        <p>Safari</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest English/taki-taki.jpg" alt="">
+                        <p>Taki Taki</p>
+                        <p class="second">May 25,  2020</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--------- latest english section end-------->
+
+
+            <!--------- latest hindi section end-------->
+
+            <div class="Latest-song" style="top: 28vw;">
+                <h1 style="margin-left: -1px;">Latest Hindi</h1>
+
+                <div class="Latest-song-content">
+                    <div>
+                        <img src="assests/media/Latest Hindi/kabir-singh.jpg" alt="">
+                        <p>Bekhayali</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest Hindi/kinnasona.jpg" alt="">
+                        <p>Kinna Sona</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest Hindi/malang.jpg"alt="">
+                        <p>Malang</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest Hindi/Shayad.jpg" alt="">
+                        <p>Shayad</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest Hindi/sip-sip.jpg" alt="">
+                        <p>Sip Sip</p>
+                        <p class="second">May 25, 2020</p>
+                    </div>
+                    <div>
+                        <img src="assests/media/Latest Hindi/ek-jinadgi.jpg" alt="">
+                        <p>Ek Jindagi</p>
+                        <p class="second">May 25,  2020</p>
+                    </div>
+                </div>
+
+            </div>
+            <!--------- latest hindi section end-------->
+        </aside>
+        <label for="more"><i class="fas fa-arrow-alt-circle-left"></i>Playlist</label>
+        <input type="checkbox" id="more">
+
+
+        <!-- Aside section -2 start -->
+        <aside class="aside section-2">
+            <div class="heading">
+                <h1>My Playlist</h1>
+                <h4>
+                    <a href="#queue-box">Queue
+                    <i class="fas fa-chevron-circle-down"></i>
+                </a></h4>
+            </div>
+            <div class="queue-option" id="queue-box">
+                <p><a href>Playlist</a></p>
+                <hr>
+                <p><a href>Favourite Playlist</a></p>
+                <hr>
+                <p> <a href="#" style="color: rgb(255, 17, 17);">Close</a>
+                </p>
+            </div>
+
+            <div class="playlist-content">
+                <!-- first playlist -->
+                <div class="playlist-item  animated bounceInRight repeat-1 slow">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:6px;">
+                            01
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-1.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+
+                <!-- second playlist -->
+                <div class="playlist-item  animated bounceInRight repeat-1 slow delay-1s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            02
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-2.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                        </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+        
+                <!-- third playlist -->
+                <div class="playlist-item  animated bounceInRight repeat-1 slow delay-2s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            03
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-3.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!-- fourth playlist -->
+                <div class="playlist-item  animated bounceInRight repeat-1 slow delay-3s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            04
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-4.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!--  five playlist -->
+                <div class="playlist-item  animated bounceInRight repeat-1 slow delay-4s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            05
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-5.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!--  six playlist -->
+                <div class="playlist-item  animated bounceInRight repeat-1 slow delay-5s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            06
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-6.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!--  seven playlist -->
+                <div class="playlist-item  animated bounceInRight repeat-1 slow">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            07
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-7.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!--  eight playlist -->
+                <div class="playlist-item animated slideInRight repeat-1 slower delay-7s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            08
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-8.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!--  nine playlist -->
+                <div class="playlist-item animated slideInRight repeat-1 slower delay-8s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            09
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-9.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!-- ten playlist -->
+                <div class="playlist-item animated slideInRight repeat-1 slower delay-9s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            10
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-12.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!-- Eleven playlist -->
+                <div class="playlist-item animated slideInRight repeat-1 slower delay-10s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            11
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-11.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                            <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                <!-- Twelve playlist -->
+                <div class="playlist-item animated slideInRight repeat-1 slower delay-11s">
+                    <!-- playlist index  no.  -->
+                    <div class="left-content">
+                        <div style="margin-right:4px;">
+                            12
+                        </div>
+                        <div class="image-inner">
+                            <img src="assests/media/playlist/playlist-10.jpg" alt="">
+                            <div class="play-button">
+                                <i class="fas fa-play" aria-hidden ="true"></i>
+                            </div>
+                            </div>
+                            <!-- name and artist of the song -->
+                           <div class="playlist-author">
+                                <div>
+                                    Miarage
+                                </div>
+                                <p>
+                                    Else
+                                </p>
+                            </div>
+                        </div>
+                        <!-- right content of the playlist -->
+                        <div class="right-content">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Play -->
+           
+        </aside>
+        <!-- Aside section complete -->
+
+        <!-- Footer section Music bar  start-->
+        <footer>
+            <div class="active-song-info">
+                <div id="song-img">
+                    <img src="assests/media/Latest English/taki-taki.jpg" alt="">
+                </div>
+                <div class="song-description">
+                    <div>
+                        
+                        
+                        
+                    </div>
+                    <div>
+                        Dj Snake
+                    </div>
+                </div>
+                <div class="footer-icon">
+                    <span>
+                        <i class="far fa-heart"></i>
+                    </span>
+                    <span class="fas fa-ban"></span>
+                </div>
+            </div>
+            <!-- Audio Player controls -->
+            <div class="main-player-control">
+                <div class="controls">
+                    <div><i class="fas fa-random"></i></div>
+                    <div><i class="fas fa-step-backward"></i></div>
+                    <div><i class="fas fa-pause-circle"></i></div>
+                    <div><i class="fas fa-step-forward"></i></div>
+                    <div><i class="fas fa-redo"></i></div>
+                </div>
+
+                <div id="slider">
+                    <div class="time">
+                        1.39
+                    </div>
+                    <div class="slider-bar">
+                        <input type="range" min="0" max="100" class="slider" id="mybar">
+                    </div>
+                    <div class="time">
+                        4.55
+                    </div>
+                </div>
+            </div>
+                <div class="extra">
+                    <div><i class="fas fa-sliders-h"></i></div>
+                    <div><i class="fas fa-laptop-house"></i></div>
+                    <div><i class="fas fa-volume-up"></i></div>
+                    <div class="slider-bar" style="width: 30%;">
+                        <input type="range" min="0" max="100" class="slider" id="bar" value="0" style="margin-top: 0px;">
+                    </div>
+                    <div><i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer section Music bar  end-->
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+@media screen and(max-width:1200px) {
+    .search-bar {
+        width: 30%;
+    }
+
+    .favs {
+        display: none !important;
+    }
+
+    input {
+        font-size: 12px !important;
+    }
+
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    label[for="more"] {
+        display: block;
+    }
+
+    /* hidden section 2 by default */
+    .section-2 {
+        visibility: hidden;
+        width: 300px;
+        height: 66vh;
+        opacity: 0;
+        right: 0px;
+        top: 23.5%;
+        position: absolute;
+
+        background-color: #050043;
+        box-shadow: 0px 0px 2px 1px white;
+
+        z-index: 5;
+        overflow: scroll;
+        padding-left: 10px;
+        transition: visibility ease-in-out 0.2s;
+        transition: opacity ease-in-out 0.2s;
+    }
+
+    input[id="more"]:checked~.section-2 {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .section-2::-webkit-scrollbar {
+        display: none;
+    }
+
+    .section-1 {
+        width: 100%;
+    }
+
+    .container {
+        height: 30vw !important;
+    }
+
+    .song-name h1 {
+        font-size: 3.5vw;
+    }
+
+    .image-container {
+        height: 30vw;
+        width: 25vw;
+    }
+
+    .followers {
+        font-size: 1.8vw;
+    }
+
+    .singer {
+        font-size: 1.8vw;
+    }
+
+    .song-desc {
+        font-size: 1.7vw;
+    }
+
+    .play-button>button {
+        width: 14vw !important;
+        height: 4vw !important;
+        font-size: 1.8vw !important;
+    }
+
+    .action-controls p {
+        font-size: 1.8vw !important;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .website-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .website-name h1 {
+        font-size: 13px;
+    }
+
+    .website-name h4 {
+        font-size: 9px;
+    }
+
+    .favs {
+        display: none !important;
+    }
+
+    .search-bar {
+        width: 35%;
+        height: 3% !important;
+    }
+
+    .notification-bell img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .profile-picture img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .notification-bell,
+    .profile-picture {
+        margin-top: 8px;
+    }
+
+    .section-1 {
+        width: 100%;
+    }
+
+    .container {
+        height: 60vw !important;
+    }
+
+    .song-name h1 {
+        font-size: 3.8vw;
+    }
+
+    .image-container {
+        height: 60vw;
+        width: 60vw;
+    }
+
+    .followers {
+        font-size: 2.5vw;
+    }
+
+    .singer {
+        font-size: 2.3vw;
+    }
+
+    .song-desc {
+        font-size: 2.5vw !important;
+        line-height: 10px;
+    }
+
+    .play-button>button {
+        width: 16vw !important;
+        height: 5vw !important;
+        font-size: 2vw !important;
+    }
+
+    .action-controls p {
+        font-size: 2vw !important;
+    }
+
+    .song-img {
+        display: none;
+    }
+
+    .controls .fa-random {
+        display: none;
+
+    }
+
+    .controls .fa-redo {
+        display: none;
+
+    }
+
+    .footer-icon span {
+        display: none
+    }
+
+    .controls {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .extra .fa-sliders-h {
+        display: none;
+    }
+
+    .extra .fa-laptop-house {
+        display: none;
+    }
+
+
+}

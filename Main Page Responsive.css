@@ -1,0 +1,285 @@
+/* Navigation menu bar */
+
+@media screen and(max-width:1200px) {
+    .search-bar {
+        width: 30%;
+    }
+
+    .favs {
+        display: none !important;
+    }
+
+    input {
+        font-size: 12px !important;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+
+
+    .section-1 {
+        width: 100%;
+    }
+
+    .carousel-container {
+        height: 9%;
+    }
+
+    .carousel img {
+        height: 23vw;
+        width: 35vw;
+    }
+
+    .carousel img:nth-child(1) {
+        left: 56vw;
+    }
+
+    .carousel img:nth-child(3) {
+        right: 56vw;
+    }
+
+    .carousel img:hover {
+        height: 26vw;
+        width: 40vw;
+    }
+
+    .card {
+        min-width: 250px;
+    }
+
+    .music-theme {
+        justify-content: space-around;
+    }
+
+    .station-main {
+        width: 50%;
+    }
+
+    .popular-artist-info>a>div>p {
+        font-size: 1.7vw;
+    }
+
+    .popular-artist-info>a>div {
+        margin-left: 3vw;
+    }
+
+    .station-main>div {
+        /* margin-left: 7vw; */
+        margin-left: 6vw;
+
+    }
+
+    label[for="more"] {
+        display: block;
+    }
+
+    /* hidden section 2 by default */
+    .section-2 {
+        visibility: hidden;
+        width: 300px;
+        height: 66vh;
+        opacity: 0;
+        right: 0px;
+        top: 23.5%;
+        position: absolute;
+
+        background-color: #050043;
+        box-shadow: 0px 0px 2px 1px white;
+
+        z-index: 5;
+        overflow: scroll;
+        padding-left: 10px;
+        transition: visibility ease-in-out 0.2s;
+        transition: opacity ease-in-out 0.2s;
+    }
+
+    .playlist-content {
+        overflow: visible;
+    }
+
+    /* re-adjusted the queue options box */
+    .queue-option {
+        position: absolute;
+        height: auto;
+        width: auto;
+        top: 7%;
+        right: 0%;
+    }
+
+    input[id="more"]:checked~.section-2 {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* hide section 2 scrollbar */
+    .section-2::-webkit-scrollbar {
+        display: none;
+    }
+
+    .search-bar {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .website-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .website-name h1 {
+        font-size: 13px;
+    }
+
+    .website-name h4 {
+        font-size: 9px;
+    }
+
+    .favs {
+        display: none !important;
+    }
+
+    .search-bar input {
+        width: 100%;
+        height: 5%;
+    }
+
+    .notification-bell img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .profile-picture img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .notification-bell,
+    .profile-picture {
+        margin-top: 8px;
+    }
+
+    .popular-artist-info>a>div {
+        margin-left: 5vw;
+    }
+
+    .popular-artist-info>a>div>p {
+        font-size: 12px;
+    }
+
+    .station-main {
+        width: 100%;
+
+    }
+
+    .station-info {
+        width: 18vw;
+        height: 18vw;
+    }
+
+    .station-main p {
+        font-size: 4vw;
+        top: -18.8vw;
+    }
+
+    .station-info {
+        margin-right: -18vw;
+    }
+
+    .radio-station div img {
+        width: 18vw;
+        height: 18vw;
+
+    }
+
+    .music-radio {
+        margin-left: 35%;
+        margin-bottom: 12px;
+    }
+
+    #div1 {
+        height: 20vw;
+        width: 30vw;
+        padding-top: 2px !important;
+    }
+
+    #div2 {
+        width: 28vw;
+        margin-top: -7px;
+        height: 24vw;
+    }
+
+    #div3 {
+        width: 26vw;
+        height: 26vw;
+    }
+
+    #div3 img {
+        width: 40px;
+        height: 40px;
+        margin-top: -4px !important;
+    }
+
+    #div3 p {
+        font-size: 5vw;
+    }
+
+    .outer .inner p {
+        font-size: 4vw;
+    }
+
+    .music-theme .inner img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .music-theme p {
+        margin-top: 2vw;
+    }
+
+    .music-theme .outer .inner .unique {
+        margin-top: 24vw;
+    }
+
+
+
+    .song-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .music-theme .inner img {
+        width: 40vw !important;
+        height: 30vw !important;
+    }
+
+    .controls .fa-random {
+        display: none;
+
+    }
+
+    .controls .fa-redo {
+        display: none;
+
+    }
+
+    .footer-icon span {
+        display: none
+    }
+
+    .controls {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .extra .fa-sliders-h {
+        display: none;
+    }
+
+    .extra .fa-laptop-house{
+        display: none;
+    }
+}
