@@ -4,6 +4,7 @@
     --playlist-color:#bbbbbb;
     --playlist-background:rgb(20, 27, 65);
     --playlist-font-size:12px;
+    --background-image:url("assests/Background/background-7.jpg")
 }
 
 
@@ -33,7 +34,7 @@ body {
     margin: 0px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(assests/Background/background-7.jpg);
+    background-image: var(--background-image);
     background-size: cover;
 }
 
